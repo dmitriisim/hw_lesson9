@@ -1,0 +1,100 @@
+body
+{
+
+	background-color: #000;
+	color:#fff;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana;
+	background-image: url(../img/bg_image.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment:fixed;
+}
+
+a{
+	color: #35aa01;
+}
+
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#idName1{
+	position: relative;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+	border: 0px solid yellow;
+}
+
+#idName1 .col1, #idName1 .col2{
+	position: relative;
+	float: left;
+	padding: 10px;
+	border: 0px solid #fff;
+	width: 35%;
+	border: 0px solid red;
+}
+
+#idName1 .col2{
+	width: 61%;
+}
+
+.logoBlock
+{
+	width: 300px;
+	height: 260px;
+}
+
+.menuBlock ul{
+	list-style-type: none;
+}
+
+.menuBlock ul li{
+	width: 200px;
+	background-color: #fff;
+	padding: 3px 3px 3px 15px;
+	margin: 0px 0px 5px 10px;
+	text-align: left;
+}
+
+.menuBlock ul li:hover{
+	border-left: 40px solid #000;
+}
+
+.menuBlock ul a{
+	text-decoration: none;
+	color: #000;
+}
+
+.photoBlock{
+	padding: 10px 0px 10px 50px;
+
+}
+
+.galleryImg, .galleryImg2{
+	position: relative;
+	float: left;
+	margin: 0px 12px 15px 0px;
+	border:1px solid #fff;
+	padding:1px;
+	height: 128px;
+}
+
+.galleryImg2{
+	height: 112px;
+}
+
+img.aboutImg{
+	float: left;
+	margin: 5px 15px 15px 0px;
+}
+
+.clearBoth{
+	clear: both;
+	height: 0px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>	
+	<head>
+		<title>Starwars Collection</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	</head>
+	<body>
+		<div id="idName1">
+			<div class="col1">
+				<div class="logoBlock">
+					<a href="page1.html"><img src="img/logo.png"></a>
+				</div>
+				<div class="menuBlock">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="collection">My Collection</a></li>
+						<li><a href="/about">About Us</a></li>
+						<li><a href="/contact">Contact Us</a></li>		
+					</ul>
+				</div>
+			</div>
+			<div class="col2">
+				<div class="clearBoth"></div>
+
+					<%= yield %>
+
+				<div class="clearBoth"></div>	
+			</div>
+		</div>		
+	</body>
+</html>
